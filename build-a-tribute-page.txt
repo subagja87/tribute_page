@@ -1,0 +1,154 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+  <link rel="stylesheet" href="styles.css"</link>
+  <title>Tribute Page</title>
+  </head>
+  <body>
+    <main id="main">
+      <div class="container">
+      <h1 id="title">Prof. Dr-ing B. J. Habibie</h1>
+      <p class="subtitle">An engineer who became a President of Indonesia</p>
+      <div id="img-div">
+        <img src="https://th.bing.com/th/id/OIP.BsfJprk3S8nvVcDvJWbLVQHaEG?rs=1&pid=ImgDetMain" id="image"></img>
+        <figcaption id="img-caption">Prof. Dr-ing B.J. Habibie with the miniature of aircraft N-250 - his masterpiece for Indonesia <a href="https://www.thinkchina.sg/politics/prabowo-subianto-indonesias-controversial-presidential-candidate">(image source)</a></figcaption>
+      </div>
+      <div id="tribute-info">
+        <h3 class="header-2">Summary of the remarkable life of "<span style="font-style:italic">Pak</span> Habibie"</h3>
+        <ul>
+          <li><span class="year">1936</span> - was born in Pare-Pare, South Sulawesi</li>
+          <li><span class="year">1950</span> - his father's died when he's 14 years old</li>
+          <li><span class="year">1960</span> - received an engineer's degree in Germany with the title <span style="font-style:italic">Diplom-Ingenieur</span>. He remained in Germany as a research assistant under Hans Ebner at the <span style="font-style:italic">Lehrstuhl und Institut für Leichtbau, RWTH Aachen</span> to conduct research for his doctoral degree.</li>
+          <li><span class="year">1962</span> - married with a medical doctor, Hasri Ainun</li>
+          <li><span class="year">1965</span> - delivered his dissertation in aerospace engineering and received the grade of "very good", giving him the title <span style="font-style:italic">Doktoringenieur</span> (Dr.-Ing.). The same year, he accepted Hans Ebner's offer to continue his research on Thermoelasticity and work toward his habilitation, but he declined the offer to join RWTH as a professor. His thesis about light construction for supersonic or hypersonic states also attracted offers of employment from companies such as Boeing and Airbus, which Habibie again declined. Habibie did accept a position with <span style="font-style:italic">Messerschmitt-Bölkow-Blohm</span> in Hamburg. There, he developed theories on thermodynamics, construction, and aerodynamics known as the Habibie Factor (thermodynamics), Habibie Theorem (construction), and Habibie Method (aerodynamics), respectively. He worked for <span style="font-style:italic">Messerschmitt</span> on the development of the Airbus A-300B aircraft.</li>
+          <li><span class="year">1974</span> - returned to Indonesia as part of his drive to industrialize and develop the country</li>
+          <li><span class="year">1978</span> - was appointed as State Minister of Research and Technology</li>
+          <li><span class="year">1998</span> - was elected as vice president of Indonesia</li>
+          <li><span class="year">1998</span> - became a President of Indonesia after the resignation of former President Suharto</li>
+          <li><span class="year">1999</span> - withdrew his nomination as the President of Indonesia</li>
+          <li><span class="year">2006</span> - released a book called <span style="font-style:italic">Detik-Detik Yang Menentukan: Jalan Panjang Indonesia Menuju Demokrasi</span> (Decisive Moments: Indonesia's Long Road Towards Democracy). The book recalled the events of May 1998 which led to his rise to the presidency. In the book, he controversially accused Lieutenant General Prabowo Subianto, Suharto's son-in-law (at that time) and the Kostrad Commander, of planning a <span style="font-style:italic">coup d'état</span> against him in May 1998.</li>
+          <li><span class="year">2019</span> - was admitted to Gatot Soebroto Army Hospital, where he was undergoing treatments for heart problems, namely cardiomyopathy, and died at the age of 83 years old</li> 
+        </ul>
+        <p class="quote"><span style="font-style:italic">"Live like you will die tomorrow. And blessed like you will live forever"</span></p>
+        <p class="q-name">--B. J. Habibie--</p>
+        <p class="foot-note">This tribute is summarised from <a id="tribute-link" href="https://en.wikipedia.org/wiki/B._J._Habibie" target="_blank">wikipedia</p>
+      </div>
+      </div>
+    </main>
+  </body>
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+@media (max-width: 600px){
+  .container{
+    min-width: 580px;
+  } 
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Sans-serif;
+  font-size: 1.2rem;
+}
+
+body{
+  background-color: #FAF8F8;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.container{
+  background-color: #ccc;
+  margin: 2rem 10%;
+  border-radius: 1rem;
+  padding-top: 2rem;
+}
+  h1, p {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .subtitle{
+    font-style: italic;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #img-div {
+    margin-bottom: 1.5rem;
+  }
+
+  #image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 2rem auto;
+    
+  }
+
+  figcaption {
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    font-style: italic;
+  }
+
+  #tribute-info {
+    text-align: justify;
+    margin-top: 1rem;
+  }
+
+  .header-2 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 1.5rem auto;
+  }
+
+  ul {
+    line-height: 2;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  li {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+  }
+
+  .quote {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+.q-name {
+  margin-bottom: 1rem;
+}
+
+  .foot-note {
+    font-weight: bold;
+    padding-bottom: 1rem;
+  }
+
+** end of undefined **
+
